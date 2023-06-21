@@ -1,7 +1,11 @@
 function App() {
   return (
     <div className="App">
-      Hello World
+      <Header />
+      <main>
+        <Container />
+        <Footer />
+      </main>
     </div>
   );
 }
